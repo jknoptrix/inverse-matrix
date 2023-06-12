@@ -1,3 +1,9 @@
+mod add;
+mod div;
+mod mul;
+mod neg; // nig...
+mod sub;
+
 use crate::Matrix;
 use std::fmt::{Display, Formatter, Result};
 

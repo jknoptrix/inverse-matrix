@@ -1,11 +1,5 @@
-mod determinant;
-mod add;
-mod neg;
-mod sub;
-mod mul;
-mod div;
-
-use crate::determinant::determinant;
+mod config;
+use crate::config::determinant;
 
 #[derive(Debug)]
 pub struct Matrix<T> {
